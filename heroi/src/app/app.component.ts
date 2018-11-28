@@ -16,6 +16,6 @@ export class AppComponent {
     new Hero(15, 'Magneta'),
     new Hero(20, 'Tornado')
   ];
-  meuHeroi = this.heroes[0].idH + ' ' + this.heroes[0].nomeH
+  meuHeroi = this.heroes['0'].idH + ' ' + this.heroes[0].nomeH
 
 }
